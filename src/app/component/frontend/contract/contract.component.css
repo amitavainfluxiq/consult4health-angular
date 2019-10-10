@@ -1,0 +1,93 @@
+.contract{ box-shadow: none!important; }
+.contract .contract_container{ margin: 0 auto; width: 80%;  border: 1px solid #b8e7ef;}
+.contract .contract_container .top_header{ background: #d1f8ff; padding: 20px; text-align: center; }
+.contract .contract_container .top_header img{ max-width: 100%; }
+.header_content{ text-align: center; margin-top: 40px; padding: 0 20px;}
+.header_content .title{ text-align: center; font-family: "MontserratBold"; font-size: 42px; text-transform: uppercase; color: #000; }
+.header_content .sub-title{ text-align: center; font-family: "MontserratSemiBold"; font-size: 26px;  color: #2d2c2c; }
+
+.content{ padding: 30px;}
+.content p,
+.content p .inp_one,
+.content p .inp_two,
+.content .main_content .inner_content_number2 { color: #3e3e3e; font-family: "MontserratSemibold"; font-size: 17px; line-height: 28px;  }
+
+.content p .inp_one{ border: none; border-bottom: 1px solid #333333; width: 220px; }
+.content p .inp_two{ border: none; border-bottom: 1px solid #333333; width: 280px; }
+.content p .inp_one:focus, .content p .inp_two:focus{ outline: none;}
+.content .main_content{display: block; margin-top: 30px;}
+.content .main_content .inner_content_number{ color: #06bcde; font-family: "MontserratSemibold"; font-size: 24px; line-height: 28px; margin-bottom: 20px!important;}
+.content .main_content .sub_content_wrapper .sub_content{ font-size: 20px!important; margin-bottom: 15px!important; }
+.content .main_content .sub_content_wrapper{ padding-left: 30px; display: block; }
+
+.signature_section{ display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 50px;}
+.signature_section .sectionitems { width: 45%; position: relative; }
+.signature_section .sectionitems input { width: 100%;    line-height: 30px; border: none; border-bottom: 1px solid rgb(15, 15, 15); font-size: 22px;
+    font-family: 'MontserratSemibold'; color: #5d5d5d; }
+    .signature_section .sectionitems input:focus{ outline: none; }
+
+.signature_section .sectionitems .sec_title{ font-size: 24px; font-family: "MontserratSemibold"; }
+.signature_section .sectionitems .sec_subtitle{ font-size: 18px; font-family: "MontserratSemibold"; }
+.signature_section .sectionitems p{ margin: 15px 0;}
+.signature_section .sectionitems .two{ margin-bottom: 5px !important;}
+.signature_section .sectionitems .two button{ background: #1dc3e1; color: #fff; font-size: 16px;}
+.signature_section .sectionitems p:last-child{ margin-top: 30px !important;}
+ .signature{  font-family: 'Notera'!important; font-size: 40px!important; color: #000!important; width: 100%!important;}
+.signature_section .sectionitems .date{ width: 50%!important; }
+.signature_section .sectionitems .positional{ position: absolute; top: 65px; }
+
+.modal_wrapper { box-sizing: border-box; border: 5px solid #21cbef!important; width: 740px!important; margin: 0; padding: 24px;  }
+
+.modal_wrapper .logo_wrapper { width: 100%; text-align: center; }
+.modal_wrapper .logo_wrapper img{ max-width: 100%;}
+.modal_wrapper .sign_wrapper{ margin-bottom: 35px;}
+.modal_wrapper .digital_sign_header{ text-transform: uppercase; color: #06bcde; font-family: "MontserratSemibold"; font-size: 26px; margin-bottom: 20px; }
+.modal_wrapper .sign_wrapper label{ font-family: 'MontserratSemibold'; color: #000; font-size: 20px; margin-bottom: 15px;  display: block;}
+.modal_wrapper .sign_wrapper .digital_sign{ font-family: 'Montserrat'; color: #000; font-size: 20px; width: 100%; border: 1px solid #b1b1b1; height: 36px; padding: 8px 15px;
+    box-sizing: border-box; }
+.modal_wrapper .sign_wrapper .digital_sign:focus{ border-color: #b1b1b1; outline: none; }
+
+.sign_container h3{ font-size: 16px; font-family: "MontserratRegular"; color: #444444;}
+  .sign_container .top{  background: url(/assets/images/pop_text_top.png) no-repeat left 8px;  padding-left: 35px; }
+  .sign_container .bottom{  background: url(/assets/images/pop_text_bottom.png) no-repeat left -8px;  padding-left: 35px; line-height: 26px; }
+  .sign_container p{  border-left: 1.5px solid #01b2d3; padding-left: 20px; padding-bottom: 5px; box-sizing: border-box; line-height: 28px;}
+
+  .modal_wrapper  .sign_container{  display: block;  }
+  .modal_wrapper  .agreement_content{ font-size: 16px; margin: 20px 0; font-family: 'MontserratRegular'; line-height: 24px; }
+
+  .modal_wrapper .agree{ background: #1dc3e1; color: #fff; }
+  .modal_wrapper .Cancel{ background: rgb(32, 32, 32); color: #fff; margin-left: 20px;  }
+
+
+  @media screen and (max-width:992px){
+    .modal_wrapper { width:100%!important; }
+    }
+  @media screen and (max-width: 768px){
+    .contract .contract_container { width: 100%; }
+  }
+
+
+  @media screen and (max-width: 668px){
+    .signature_section .sectionitems { width: 100%; margin-bottom: 30px; }
+    .signature_section { margin-top: 25px; }
+  }
+  @media screen and (max-width: 480px){
+    .content p .inp_one, .content p .inp_two { width: 100%; margin-bottom: 10px;}
+    .sign_container h3{ font-size: 14px; }
+    .header_content { margin-top: 20px; }
+    .header_content .title { font-size: 30px; }
+    .header_content .sub-title { font-size: 18px; }
+    .content { padding: 15px 20px; }
+    .content p, .content p .inp_one,
+    .content p .inp_two,
+    .content .main_content .inner_content_number2 { font-size: 16px; line-height: 26px; }
+    .content .main_content .inner_content_number { font-size: 22px; margin-bottom: 10px!important;}
+    .content .main_content .sub_content_wrapper .sub_content { white-space: normal; word-break: break-word; }
+    .content .main_content .sub_content_wrapper { padding-left: 12px; }
+  }
+  @media screen and (max-width: 360px){
+  .modal_wrapper  { padding: 10px; }
+  .modal_wrapper.digital_sign_header{ font-size: 22px; }
+  }
+
+

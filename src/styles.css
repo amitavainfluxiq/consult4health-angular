@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import '~font-awesome/css/font-awesome.css';
 @font-face {
   font-family: "MyriadPro-Bold";
   src: url("../src/assets/fonts/MyriadPro-Bold_gdi.eot");
@@ -209,7 +209,7 @@ body {
   border-radius: 0px !important;
   transition: none !important;
 }
-.contactusinfoblock .mat-card{  
+.contactusinfoblock .mat-card{
   box-shadow: none !important;
 }
 

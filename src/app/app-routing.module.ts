@@ -23,11 +23,12 @@ import { AddeditServiceComponent } from './component/backend/ServiceApp/addedit-
 import { ListingServiceComponent } from './component/backend/ServiceApp/listing-service/listing-service.component';
 import { ListingTestimonialComponent } from './component/backend/TestimonialApp/listing-testimonial/listing-testimonial.component';
 import { AddeditTestimonialComponent } from './component/backend/TestimonialApp/addedit-testimonial/addedit-testimonial.component';
+import { ContractComponent } from './component/frontend/contract/contract.component';
 /**End Backend Routing**/
 
 const routes: Routes = [
-  
-/**Frontend Routing**/   
+
+/**Frontend Routing**/
 {path: '',component:LoginComponent},
 {path: 'forget-password', component:ForgetPasswordComponent},
 {path: 'reset-password', component:ResetPasswordComponent},
@@ -35,11 +36,14 @@ const routes: Routes = [
 {path: 'header', component:HeaderComponent},
 {path: 'footer', component:FooterComponent},
 {path: 'contactus', component:ContactusComponent},
-{path: 'home', component:HomeComponent}, 
+{path: 'home', component:HomeComponent},
+{path: 'agreement', component: ContractComponent},
 /**End Frontend Routing**/
 
   /**Backend Routing**/
-  {path: 'dashboard', component:DashboardComponent, canActivate:[AuthGuard]},       // Useing for canActive
+  {path: 'dashboard', component:DashboardComponent
+  // , canActivate:[AuthGuard]
+  },       // Useing for canActive
   {path: 'bk-header', component:BkHeaderComponent},
   {path: 'bk-footer', component:BkFooterComponent},
   {path: 'bk-leftdiv', component:BkLeftdivComponent},

@@ -29,7 +29,7 @@ import { ContactusComponent } from './component/frontend/contactus/contactus.com
 import { ForgetPasswordComponent } from './component/frontend/forget-password/forget-password.component';
 import { ResetPasswordComponent } from './component/frontend/reset-password/reset-password.component';
 import { SignUpComponent } from './component/frontend/sign-up/sign-up.component';
-
+import { ContractComponent, SignatureComponent } from './component/frontend/contract/contract.component';
 /**End Frontend Component**/
 
 
@@ -46,8 +46,10 @@ import { AddeditTestimonialComponent } from './component/backend/TestimonialApp/
 import { ServicelibModule } from 'servicelib';
 import { BkLeftdivComponent } from './layout/bk-leftdiv/bk-leftdiv.component';
 import { MaindashboardComponent } from './component/backend/maindashboard/maindashboard.component';
+import { from } from 'rxjs';
 /**End Backend Component** */
-
+import { FormsModule } from '@angular/forms';
+import { MatIconRegistry, MatIconModule } from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -68,13 +70,20 @@ import { MaindashboardComponent } from './component/backend/maindashboard/mainda
     AddeditTestimonialComponent,
     BkLeftdivComponent,
     MaindashboardComponent,
-  
+    ContractComponent,
+    SignatureComponent,
+
+
+
+
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     DemoMaterialModule,
+    MatIconModule,
     CommonModule,
+    FormsModule,
     TransferHttpCacheModule,
     HttpClientModule,
     NgtUniversalModule,
@@ -86,6 +95,13 @@ import { MaindashboardComponent } from './component/backend/maindashboard/mainda
     AppRoutingModule,MetaModule.forRoot(), BrowserAnimationsModule
   ],
   providers: [CookieService, AuthGuard, ApiService, SidenavService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents:[
+    SignatureComponent
+  ]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(matIconRegistry: MatIconRegistry) {
+    matIconRegistry.registerFontClassAlias('fontawesome', 'fa');
+  }
+}

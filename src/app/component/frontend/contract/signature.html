@@ -1,0 +1,22 @@
+<mat-card-content class="modal_wrapper">
+    <mat-card-content class="logo_wrapper">
+        <img src="https://consult4health.com/assets/images/logo1.png">
+    </mat-card-content>
+
+    <mat-card-title class="digital_sign_header">Digital Signature</mat-card-title>
+    <mat-card-content class="sign_wrapper">
+        <label>Full Name</label> 
+        <input type="text" class="digital_sign" [(ngModel)]="sign">
+    </mat-card-content>
+
+    <span class="sign_container">
+        <h3 class="top">Digitally Signed By:</h3>
+        <p class="signature">{{sign}}</p>
+        <h3 class="bottom">August 23, 2019 10:44 AM</h3>
+    </span>
+
+    <p class="agreement_content">By selecting “agree”, the parties agree that this agreement may be electronically signed. The parties agree that the electronic signatures appearing on this agreement are the same as handwritten signatures for the purposes of validity, enforceability, and admissibility.</p>
+
+    <button mat-flat-button class="agree"> Agree</button>
+    <button mat-flat-button class="Cancel" [mat-dialog-close]="true"> Cancel</button>
+</mat-card-content>

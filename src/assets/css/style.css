@@ -1,8 +1,147 @@
 
 
+@font-face {
+    font-family: "MyriadPro-Bold";
+    src: url("../fonts/MyriadPro-Bold_gdi.svg");
+    src: url("../fonts/MyriadPro-Bold_gdi.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/MyriadPro-Bold_gdi.woff") format("woff"),
+    url("../fonts/MyriadPro-Bold_gdi.ttf") format("truetype"),
+    url("../fonts/MyriadPro-Bold_gdi.svg#MyriadPro-Bold")
+    format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-25CA;
+}
 
+@font-face {
+    font-family: "MyriadPro-Semibold";
+    src: url("../fonts/MyriadPro-Semibold_gdi.eot");
+    src: url("../fonts/MyriadPro-Semibold_gdi.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/MyriadPro-Semibold_gdi.woff") format("woff"),
+    url("../fonts/MyriadPro-Semibold_gdi.ttf") format("truetype"),
+    url("../fonts/MyriadPro-Semibold_gdi.svg#MyriadPro-Semibold")
+    format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-25CA;
+}
 
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../fonts/MyriadPro-Regular_gdi.eot");
+    src: url("../fonts/MyriadPro-Regular_gdi.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/MyriadPro-Regular_gdi.woff") format("woff"),
+    url("../fonts/MyriadPro-Regular_gdi.ttf") format("truetype"),
+    url("../fonts/MyriadPro-Regular_gdi.svg#MyriadPro-Regular")
+    format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-25CA;
+}
 
+@font-face {
+    font-family: "open_sanssemibold";
+    src: url("../fonts/opensans-semibold-webfont.eot");
+    src: url("../fonts/opensans-semibold-webfont.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/opensans-semibold-webfont.woff2") format("woff2"),
+    url("../fonts/opensans-semibold-webfont.woff") format("woff"),
+    url("../fonts/opensans-semibold-webfont.ttf") format("truetype"),
+    url("../fonts/opensans-semibold-webfont.svg#open_sanssemibold")
+    format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "open_sansregular";
+    src: url("../fonts/opensans-regular-webfont.eot");
+    src: url("../fonts/opensans-regular-webfont.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/opensans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/opensans-regular-webfont.woff") format("woff"),
+    url("../fonts/opensans-regular-webfont.ttf") format("truetype"),
+    url("../fonts/opensans-regular-webfont.svg#open_sansregular")
+    format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica-Regular";
+    src: url("../fonts/Helvetica-Normal.eot");
+    src: url("../fonts/Helvetica-Normal.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/Helvetica-Normal.woff2") format("woff2"),
+    url("../fonts/Helvetica-Normal.woff") format("woff"),
+    url("../fonts/Helvetica-Normal.ttf") format("truetype"),
+    url("../fonts/Helvetica-Normal.svg#Helvetica-Normal")
+    format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("../fonts/Helvetica-Bold.eot");
+    src: url("../fonts/Helvetica-Bold.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/Helvetica-Bold.woff2") format("woff2"),
+    url("../fonts/Helvetica-Bold.woff") format("woff"),
+    url("../fonts/Helvetica-Bold.ttf") format("truetype"),
+    url("../fonts/Helvetica-Bold.svg#Helvetica-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OrbitronBold";
+    src: url("../fonts/Orbitron-Bold.eot");
+    src: url("../fonts/Orbitron-Bold.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/Orbitron-Bold.woff2") format("woff2"),
+    url("../fonts/Orbitron-Bold.woff") format("woff"),
+    url("../fonts/Orbitron-Bold.ttf") format("truetype"),
+    url("../fonts/Orbitron-Bold.svg#Orbitron-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+  url('../fonts/Montserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+  url('../fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Notera';
+  src: url('../fonts/NoteraPersonalUseOnly.woff2') format('woff2'),
+      url('../fonts/NoteraPersonalUseOnly.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+  url('../fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.custom-modalbox .mat-dialog-container{ padding: 0;}
 html, body {height: 100%}
 
 h1, h2, h3, h4, h5, h6{
@@ -270,7 +409,100 @@ a{cursor: pointer; outline: none;}
 /*Page css start */
 
 
-  
+
+
+
+.bgmain {
+    overflow-x: hidden;
+    background: url("../images/background.jpg") no-repeat center center
+    fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.bgmain:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(
+            271deg,
+            rgba(153, 218, 255, 0.1) 0%,
+            rgba(0, 0, 0, 0.43) 24%,
+            rgba(0, 0, 0, 1) 100%
+    );
+
+    background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0%, rgba(153, 218, 255, 0.1)),
+            color-stop(24%, rgba(0, 0, 0, 0.43)),
+            color-stop(100%, rgba(0, 0, 0, 1))
+    );
+
+    background: -webkit-linear-gradient(
+            271deg,
+            rgba(153, 218, 255, 0.1) 0%,
+            rgba(0, 0, 0, 0.43) 24%,
+            rgba(0, 0, 0, 1) 100%
+    );
+
+    background: -o-linear-gradient(
+            271deg,
+            rgba(153, 218, 255, 0.1) 0%,
+            rgba(0, 0, 0, 0.43) 24%,
+            rgba(0, 0, 0, 1) 100%
+    );
+
+    background: -ms-linear-gradient(
+            271deg,
+            rgba(153, 218, 255, 0.1) 0%,
+            rgba(0, 0, 0, 0.43) 24%,
+            rgba(0, 0, 0, 1) 100%
+    );
+
+    background: linear-gradient(
+            179deg,
+            rgba(153, 218, 255, 0.1) 0%,
+            rgba(0, 0, 0, 0.43) 24%,
+            rgba(0, 0, 0, 1) 100%
+    );
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99DAFF', endColorstr='#000000', GradientType=0);
+
+}
+
+.gencls {
+    padding: 0px;
+    margin: 0px;
+}
+
+.loginform {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mat-card {
+    border-radius: 0px !important;
+    transition: none !important;
+}
+.contactusinfoblock .mat-card{
+    box-shadow: none !important;
+}
+
+.footertopwrapper .mat-list-item:first-child .mat-list-item-content {
+    padding-left: 0px;
+}
 
 
 
@@ -280,7 +512,7 @@ a{cursor: pointer; outline: none;}
     margin: 0 auto;
     display: block;
   }
-  
+
   .landinglogoblock1wrapper{
     width: 1351px;
     margin: 0 auto;
@@ -324,8 +556,8 @@ a{cursor: pointer; outline: none;}
 
 
 .navbarlists{
-    display: -webkit-box;  
-    display: -moz-box;  
+    display: -webkit-box;
+    display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -603,29 +835,29 @@ a{cursor: pointer; outline: none;}
 #previous:focus,
 #next:focus{ outline: none; }
 .slide:nth-of-type(1) {background: rgb(137, 255, 183);}
-      
-      
+
+
 
 
 
 
 /* LOGO CSS */
 .logowrapper {
-    margin-top: -27% !important;
-    margin-bottom: 26px !important;
-    width: 350px;
+/*    margin-top: -27% !important;
+    margin-bottom: 26px !important;*/
+   background: #fff; padding-top: 30px; border-radius: 5px 5px 0 0;
   }
-  
+
   .logowrapper img {
     max-width: 100%;
   }
-  
+
   .pagelogowrapper {
     margin-top: 0% !important;
     margin-bottom: 0px !important;
     width: 350px;
   }
-  
+
   .pagelogowrapper img {
     max-width: 100%;
   }
@@ -698,7 +930,7 @@ a{cursor: pointer; outline: none;}
     margin-top: 0px;
     margin: 4em auto !important;
   }
-  
+
   .contactusformblock {
     flex: 1 1 100%;
     /* display: flex; */
@@ -715,31 +947,31 @@ a{cursor: pointer; outline: none;}
     width: 143%;
     margin-top: -20%;
   }
-  
+
   .contactusinfoblock .mat-card h2 {
     text-transform: uppercase;
     color: #fff;
     font-size: 40px;
   }
-  
+
   .from.mat-card{
     background-color: transparent !important;
   }
-  
+
 .contact-form .main-div .from.mat-card {
     margin-top: 0px;
     margin: 4em auto !important;
     width: 85% !important;
     padding-left: 40% !important;
   }
-  
+
   .contact-form .main-div .from.mat-card:hover {
     -o-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2) !important;
     -ms-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2) !important;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2) !important;
   }
-  
-  
+
+
   .contact-form .from h2 {
     display: none;
   }
@@ -755,11 +987,11 @@ a{cursor: pointer; outline: none;}
     margin: 0 auto;
     background-color: transparent;
   }
-  
+
   .from {
     padding: 24px !important;
     margin: 4em auto !important;
-    color: #fff !important;
+    color: #000 !important;
     -webkit-transition: box-shadow 0.5s !important;
     transition: box-shadow 0.5s !important;
     overflow: hidden !important;
@@ -784,7 +1016,7 @@ a{cursor: pointer; outline: none;}
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2) !important;
     overflow: inherit !important;
   }
-  
+
   .from:hover {
     -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9) !important;
     -moz-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9) !important;
@@ -792,7 +1024,7 @@ a{cursor: pointer; outline: none;}
     -ms-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9) !important;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9) !important;
   }
-  
+
   .formgenrl input.mat-input-element,
   .formgenrl textarea.mat-input-element {
     outline: none;
@@ -809,23 +1041,23 @@ a{cursor: pointer; outline: none;}
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
     -ms-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 2px; height: 20px;
   }
-  
+
   .formgenrl input.mat-input-element,
   .formgenrl textarea.mat-input-element {
     background: #fff;
     padding: 10px;
     color: #333;
   }
-  
+
   .formgenrl p {
     font-size: 0.9em;
     color: #fff;
     margin: 1.8em 0 0.5em;
     letter-spacing: 1px;
   }
-  
+
   .formgenrl button {
     font-size: 1em;
     outline: none;
@@ -839,45 +1071,93 @@ a{cursor: pointer; outline: none;}
     -o-border-radius: 2px;
     border-radius: 2px;
   }
-  
+
   .formgenrl button.mat-primary {
     color: #fff;
     /* background: #fb4a32;
     border: 1px solid #fb4a32; */
-    background: #12c3e3;
-    border: 1px solid #12c3e3;
+      background: rgba(39,39,39,1);
+      background: -webkit-gradient(left top,left bottom,color-stop(0,rgba(39,39,39,1)),color-stop(100%,rgba(8,8,8,1)));
+      background: linear-gradient(to bottom,rgba(39,39,39,1) 0,rgba(8,8,8,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#272727', endColorstr='#080808', GradientType=0);
+ border-radius: 5px;
+
     font-size: 24px;
     line-height: normal;
-    width: 100% !important;
+    width: 100% !important; margin-top: 5px!important;
     height: auto !important;
   }
-  
+
   .formgenrl h2 {
-    text-align: center;
-    background-color: transparent !important;
-    color: #fff;
+    text-align: center; margin-top: -1px;
+
+    color: #12c3e3!important;
     text-transform: uppercase;
-    padding: 0px 15px 15px;
-    font-size: 30px;
+    padding:15px 15px 0px 15px!important;
+    font-size: 30px; background: #fff!important;
   }
-  
+
+.mat-form-field-appearance-legacy .mat-form-field-label{ font-size: 16px; color: #111;}
   .mat-form-field.mat-focused .mat-form-field-label {
-    color: #fff;
+    color: #12c3e3; font-size: 18px;
     left: 0px;
   }
-  
+
   .mat-form-field.mat-focused .mat-input-element {
     caret-color: #000;
   }
-  
+
   .mat-form-field .mat-form-field-label {
     top: 1.28125em;
     line-height: 36px;
     left: 10px;
   }
-  
+
   .mat-form-field-appearance-legacy.mat-focused .mat-form-field-underline {
     background-color: rgb(251, 74, 50);
   }
 
+
+.example-container[_ngcontent-serverApp-c2]{ background: #fff!important; padding: 0 25px 25px 25px;}
+
     /* FORMS CSS ENDS */
+
+.example-container[_ngcontent-serverApp-c2] {
+    margin-top: -1px;
+}
+
+
+.example-container[_ngcontent-serverApp-c7] {
+    background: #fff!important; padding: 0 25px 25px 25px;
+}
+
+.mat-card>:last-child:not(.mat-card-footer) {
+    margin-bottom: 0;
+    margin-top: -1px; background: #fff;
+    padding: 0 25px 25px 25px; border-radius: 0 0 5px 5px;
+}
+
+.signupfooter a{ color: #2a3133;}
+
+.signupfooter a:hover{ color: #12c3e3;}
+
+
+@media only screen and (max-width: 1199px) {
+
+
+    .bgmain:after {
+        padding:30px 0!important;}
+
+    .main-div[_ngcontent-serverApp-c2] {
+        height: auto;
+        display: block;}
+
+    .from{ margin-top: 25px!important; margin-bottom: 25px!important;}
+
+    .main-div[_ngcontent-serverApp-c7] {
+        height: auto; display: block;  padding:30px 0!important;}
+    .main-div[_ngcontent-serverApp-c9] {
+        height: auto; display: block;  padding:30px 0!important;}
+    .main-div[_ngcontent-serverApp-c7]{   height: auto; display: block;  padding:30px 0!important;}
+
+}

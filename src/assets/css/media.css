@@ -27,6 +27,11 @@
 
 @media only screen and (max-width: 1199px) {
 
+
+  .main-div[_ngcontent-serverApp-c2] {
+    height: auto!important;
+  display: block!important;}
+
   .vpheaderwrapper .mat-nav-list a {
     font-size: 13px;
   }
@@ -256,6 +261,8 @@
 
 
 
+
+
 @media only screen and (max-width: 640px) {
   .from {
     width: 90% !important;
@@ -277,9 +284,18 @@
     padding-bottom: 14px;
   }
 
-  .logowrapper {
+  .logowrapper img {
+    max-width: 90%;
+  }
+
+  .from.mat-card {width: 90%!important;  padding: 10px !important;}
+
+
+}
+/*  .logowrapper {
     margin-top: 0 !important;
     margin-bottom: 9px !important;
     width: 80%;
-  }
-}
+  }*/
+
+
